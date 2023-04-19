@@ -3,6 +3,7 @@
 	import MediaQuery from "../../MediaQuery.svelte"
 	import { page } from '$app/stores';
 	import { fly } from 'svelte/transition';
+	
 
 	import {clickOutside} from './clickOutside';
 	
@@ -64,7 +65,7 @@
 			{#if matches}
 
 			{#if open}
-				<nav class="topnav" use:clickOutside on:click_outside={handleClickOutside} transition:fly>
+				<nav class="topnav" use:clickOutside on:click_outside={handleClickOutside} transition:fly={{ x: 300, duration: 500}}>
 					<div id="my-links" >
 						{#each [...pages] as item}
 							<a on:click={() => open=!open} class={item[1]} href='/{item[1] !== 'home' ? item[1] : ''}' aria-current={$page.url.pathname === `/${item[1] !== 'home' ? item[1] : ''}` ? 'page' : undefined} >{item[0]}</a>
@@ -99,13 +100,14 @@
   
   background: #fff;
   overflow-y: auto;
-	width: 8rem;
+	width: 7.5rem;
 }
 
 	header {
 		width: 100%;
 		justify-content: center;
 		display: flex;
+		background-color: #fff;
 	}
 
 	.inner-header {
