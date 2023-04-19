@@ -1,29 +1,37 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+ import HomeHeader from "./Components/HomeHeader/HomeHeader.svelte";
+
+ 
+</script>
+
+<svelte:head>
+	<title>AXA | Home</title>
+	<meta name="description" content="Alpha Chi Alpha Homepage" />
+</svelte:head>
+
+<section>
+	<div class='home-wrapper'>
+		<HomeHeader/>
+
+	</div>
+	
+	
+
+</section>
 
 <style>
 
 	section {
-		width: 100vw;
+		width: 100%;
+height: 100%;
 	}
 
 	.home-wrapper {
-		width: 100vw; 
+		width: 100%; 
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 	}
 
-	.about-wrapper {
-		width: calc(10rem + 15vw);
-		justify-items: center;
-		position: relative;
-		margin-bottom: 1rem;
-	}
-
-	h1 {  
-		text-align: center;
-		
-	}
 
 </style>

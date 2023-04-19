@@ -100,7 +100,9 @@
   
   background: #fff;
   overflow-y: auto;
-	width: 7.5rem;
+	width: calc((13vw - 20rem) + 24rem);
+	justify-content: center;
+	z-index: 2;
 }
 
 	header {
@@ -108,6 +110,7 @@
 		justify-content: center;
 		display: flex;
 		background-color: #fff;
+		padding-bottom: 8px;
 	}
 
 	.inner-header {
@@ -147,7 +150,7 @@
 	}
 	.desktop-logo-wrapper img {
 		
-		padding-left: .5rem;
+		
 		height: 9rem;
 		
 	}
@@ -218,24 +221,28 @@
 	}
 
 	.topnav {
-  background-color: white; 
+  
+  justify-content: center;
   /* position: relative;
   flex-direction: column;
   display: flex;
   width: auto; */
+  text-align: center;
   
 }
 
 /* Hide the links inside the navigation menu (except for logo/home) */
 .topnav #my-links {
-  display: block;
-   
+ text-align: center;
+   justify-content: center;
 }
 
 /* Style navigation menu links */
 .topnav a {
   color: #C02126;
   padding: 14px; 
+  text-align: center;
+  justify-content: center;
   /* padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
