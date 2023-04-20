@@ -63,7 +63,7 @@
 			{#if matches}
 
 			{#if open}
-				<nav class="topnav" in:fly={{ x: 300, duration: 1000}} out:fly={{ x: 300, duration: 1500}}>
+				<nav class="topnav" in:fly={{ x: 300, duration: 500}} out:fly={{ x: 300, duration: 1000}}>
 					<div id="my-links" >
 						{#each [...pages] as item}
 							<a on:click={() => open=!open} class={item[1]} href='/{item[1] !== 'home' ? item[1] : ''}' aria-current={$page.url.pathname === `/${item[1] !== 'home' ? item[1] : ''}` ? 'page' : undefined} >{item[0]}</a>
@@ -103,7 +103,7 @@
   overflow-y: auto;
 	width: 100%;
 	justify-content: center;
-	z-index: 1;
+	z-index: 2;
 }
 
 	header {
@@ -212,7 +212,7 @@
 		color: #C02126;
 		padding: 5px;
 		width: 2rem;
-		z-index: 2;
+		z-index: 3;
 		position: relative;
 	}
 
@@ -224,11 +224,11 @@
 		justify-items: right;
 		width: 100%;
 		position: relative;
-		z-index: 2;
+		z-index: 3;
 	}
 
 	.topnav {
-		z-index: 1;
+		z-index: 2;
   
   justify-content: center;
   /* position: relative;
