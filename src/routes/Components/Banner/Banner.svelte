@@ -1,20 +1,16 @@
 <script>
 	import IoIosMenu from 'svelte-icons/io/IoIosMenu.svelte'
+	import IoIosClose from 'svelte-icons/io/IoIosClose.svelte'
 	import MediaQuery from "../../MediaQuery.svelte"
 	import { page } from '$app/stores';
 	import { fly } from 'svelte/transition';
 
 	let AXALogoRedNew = "https://axa-website-ink.s3.amazonaws.com/AXA-Logo-Red-New.png"
 	let LETTERLOGO = "https://axa-website-ink.s3.amazonaws.com/LETTER-LOGO.png"
-	 
-	import {clickOutside} from './clickOutside';
 	
 	const pages = new Set([['ON CAMPUS', 'oncampus'], ['HISTORY', 'history'], ['ALUMNI', 'alumni'],['CONTACT', 'contact'], ['DONATE', 'donate']]);
 	let open = false; 
 
-	function handleClickOutside() {
-		open = !open
-	}
 </script>
 
 
@@ -67,7 +63,7 @@
 			{#if matches}
 
 			{#if open}
-				<nav class="topnav" use:clickOutside on:click_outside={handleClickOutside} transition:fly={{ x: 300, duration: 500}}>
+				<nav class="topnav" in:fly={{ x: 300, duration: 500}} out:fly={{ x: 300, duration: 1000}}>
 					<div id="my-links" >
 						{#each [...pages] as item}
 							<a on:click={() => open=!open} class={item[1]} href='/{item[1] !== 'home' ? item[1] : ''}' aria-current={$page.url.pathname === `/${item[1] !== 'home' ? item[1] : ''}` ? 'page' : undefined} >{item[0]}</a>
@@ -83,7 +79,10 @@
 						<div class='icon' aria-label="menu-icon">
 							<IoIosMenu />
 						</div>		
-					
+					{:else}
+					<div class='icon' aria-label="close-icon">
+						<IoIosClose />
+					</div>
 					{/if}
 				</button>
 			</div>
@@ -98,11 +97,11 @@
   top: 0;
   right: 0;
   height: 100%;
-  padding: 2rem 1rem 0.6rem;
+  padding-top: 25vh;
   
   background: #fff;
   overflow-y: auto;
-	width: calc((13vw - 20rem) + 24rem);
+	width: 100%;
 	justify-content: center;
 	z-index: 2;
 }
@@ -115,14 +114,7 @@
 		padding-bottom: 8px;
 	}
 
-	.inner-header {
-		justify-content: right;
-        background-color: white;
-		display: flex;
-		align-items: right;
-		justify-items: right;
-		width: 100%;
-	}
+	
 
 	.union {
 		display: flex;
@@ -220,9 +212,23 @@
 		color: #C02126;
 		padding: 5px;
 		width: 2rem;
+		z-index: 3;
+		position: relative;
+	}
+
+	.inner-header {
+		justify-content: right;
+        background-color: white;
+		display: flex;
+		align-items: right;
+		justify-items: right;
+		width: 100%;
+		position: relative;
+		z-index: 3;
 	}
 
 	.topnav {
+		z-index: 2;
   
   justify-content: center;
   /* position: relative;
