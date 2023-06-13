@@ -1,5 +1,6 @@
 <script>
 	import Banner from './Components/Banner/Banner.svelte';
+	import Footer from './Components/Footer/Footer.svelte';
 
 	
 </script>
@@ -11,7 +12,7 @@
 		<slot />
 	</main>
 
-	
+	<Footer/> 
 </div>
 
 <style>
