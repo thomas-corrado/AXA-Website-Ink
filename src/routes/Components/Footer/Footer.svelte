@@ -93,7 +93,6 @@
 		margin: 0; 
 		padding-bottom: .3rem; 
         font-size: 1.75rem;
-
     }
 
     h6 { 
@@ -107,6 +106,10 @@
         font-size: 1.1rem;
         width: 50% 
     }
+
+    a:hover {
+		text-decoration: underline;
+	}
 
     @media (max-width: 1048px) {
         .orientation {
