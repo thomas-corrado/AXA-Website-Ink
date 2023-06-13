@@ -85,6 +85,7 @@
 		margin: 0; 
 		padding: 0; 
         font-size: 3.5rem;
+        width: 80%;
     }
 
     h3 {
