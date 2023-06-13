@@ -92,40 +92,51 @@
 </header>
 
 <style>
-	nav {
-  position: fixed;
-  top: 0;
-  right: 0;
-  height: 100%;
-  padding-top: 25vh;
-  
-  background: #fff;
-  overflow-y: auto;
-	width: 100%;
-	justify-content: center;
-	z-index: 2;
-}
 
 	header {
-		width: 100%;
-		justify-content: center;
-		display: flex;
-		background-color: #fff;
-		padding-bottom: 8px;
-	}
-
-	
-
-	.union {
+		width: 100vw;
+		margin: 0;
+		padding: 0;
 		display: flex;
 		font-family: "edita", serif;
 		font-weight: 400;
 		font-style: normal;
 		color: #C02126;
 		align-items: center;
-		width: 97%;
-		align-items: center;
+		justify-content: center;
 		justify-items: center;
+		background-color: #fff;
+	}
+
+
+	nav {
+  		position: fixed;
+  		top: 0;
+		right: 0;
+		width: 100%;
+		height: 100%;
+		padding-top: 25vh;
+		background: #fff;
+		overflow-y: auto;
+		justify-content: center;
+		z-index: 2;
+		}
+	
+
+	.union {
+		width: 97%;
+		margin: 0;
+		padding: 0;
+		display: flex;
+		font-family: "edita", serif;
+		font-weight: 400;
+		font-style: normal;
+		color: #C02126;
+		align-items: center;
+		justify-content: center;
+		justify-items: center;
+		background-color: #fff;
+		padding-bottom: 10px;
 	}
 
 	.logo-link {
@@ -143,10 +154,7 @@
 		
 	}
 	.desktop-logo-wrapper img {
-		
-		
 		height: 9rem;
-		
 	}
 
 	.mobile-logo-wrapper img {

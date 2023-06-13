@@ -15,47 +15,39 @@
 </div>
 
 <style>
-	.app {
-		
-		width: 100%;
 
-        
+	
+
+	:root {
+
+		height: 0;
+		width: 100%;
+		overflow-x: hidden;
+		margin: 0; 
+		padding: 0;
+}
+
+
+	.app {
+		width: 100%; 
+		
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin: 0;
+
 	}
 
 	main {
-		
-	}
-
-	footer {
+		flex: 1;
 		display: flex;
-		flex-direction: row;
-		justify-content: center;
-		align-items: center;
-		padding: 12px;
-		text-align: center;
+		flex-direction: column;	
+		width: 100%;
+		margin: 0 auto;
+		box-sizing: border-box;
+	
+
 	}
 
-	footer a {
-		font-weight: bold;
-	}
-
-	@media (min-width: 480px) {
-		footer {
-			padding: 12px 0;
-		}
-	}
-
-
-    img {
-        width: 2rem;
-        padding: 1rem; 
-    
-       opacity: .7;
-    }
-
-    img:hover {
-        background-color: rgb(0, 0, 0, .05);
-       
-        
-    }
+	
 </style>
