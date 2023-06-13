@@ -54,6 +54,7 @@
         justify-content: center;
         padding-bottom: 3rem;
         padding-top: 3rem;
+        overflow-x: hidden;
     }
 
     .orientation {
