@@ -2,6 +2,7 @@
  import HomeHeader from "./Components/Home/HomeHeader/HomeHeader.svelte";
  import HomeInfo from "./Components/Home/HomeHeader/HomeInfo.svelte";
  import HomeNumbers from "./Components/Home/HomeHeader/HomeNumbers.svelte";
+ import HomePagesExternal from "./Components/Home/HomeHeader/HomePagesExternal.svelte";
 
  
 </script>
@@ -16,6 +17,7 @@
 		<HomeHeader/>
 		<HomeInfo/>
 		<HomeNumbers/>
+		<HomePagesExternal/> 
 
 	</div>
 	
