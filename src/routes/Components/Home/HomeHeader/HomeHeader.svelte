@@ -34,13 +34,14 @@
     .home-header {
         width: 100%; 
         position: relative;
-    }
+       
+    }   
 
     .image-wrapper { 
          width: 100vw;
         height: calc(70vh - 5vw);
         overflow: hidden;
-    display: grid;
+        display: grid;
        text-align: center;
        position: relative;
        place-items: center;
@@ -64,7 +65,6 @@
         z-index: 1;
         padding: 0;
         margin: 0;
-        
         position: absolute;
         top: 50%;
         left: 50%;
