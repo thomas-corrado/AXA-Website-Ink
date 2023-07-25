@@ -7,7 +7,7 @@
 	
 </script>
 
-<div class="app" data-sveltekit-reload>
+<div class="app" data-sveltekit-preload-data>
 	<Banner />
 
 	<main>
