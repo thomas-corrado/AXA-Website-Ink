@@ -2,8 +2,8 @@
 	import IoIosMenu from 'svelte-icons/io/IoIosMenu.svelte'
 	import IoIosClose from 'svelte-icons/io/IoIosClose.svelte'
 	import MediaQuery from "../../MediaQuery.svelte"
-	import page from '$app/stores';
-	import fly from 'svelte/transition';
+	import { page } from '$app/stores';
+	import { fly } from 'svelte/transition';
 
 	let AXALogoRedNew = "https://axa-website-ink.s3.amazonaws.com/AXA-Logo-Red-New.png"
 	let LETTERLOGO = "https://axa-website-ink.s3.amazonaws.com/LETTER-LOGO.png"

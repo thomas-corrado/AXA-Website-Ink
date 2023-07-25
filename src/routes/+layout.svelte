@@ -3,9 +3,11 @@
 	import Footer from './Components/Footer/Footer.svelte';
 
 	
+
+	
 </script>
 
-<div class="app">
+<div class="app" data-sveltekit-reload>
 	<Banner />
 
 	<main>
