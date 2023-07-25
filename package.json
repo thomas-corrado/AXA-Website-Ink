@@ -10,15 +10,19 @@
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json --watch"
 	},
 	"devDependencies": {
+		"@smui-extra/accordion": "^7.0.0-beta.14",
+		"@smui/layout-grid": "^7.0.0-beta.14",
 		"@sveltejs/adapter-auto": "^2.0.0",
 		"@sveltejs/kit": "^1.5.0",
 		"svelte": "^3.54.0",
 		"svelte-check": "^3.0.1",
+		"svelte-grid": "^5.1.1",
 		"typescript": "^5.0.0",
 		"vite": "^4.2.0"
 	},
 	"type": "module",
 	"dependencies": {
+		"@egjs/svelte-grid": "^1.14.1",
 		"beercss": "^3.1.2",
 		"material-dynamic-colors": "^0.1.7",
 		"svelte-icons": "^2.1.0"
