@@ -17,7 +17,7 @@
             <div class="address">
                 <br>
                 <h4>
-                    Alpha Chi Alpha Fraterity 
+                    Alpha Chi Alpha Fraternity 
                 </h4>
                 <h6>
                     13 Webster Avenue 
