@@ -16,7 +16,7 @@
 			position: "President"
 		}, 
 		{
-			image_url: 'https://axa-website-ink.s3.amazonaws.com/Placeholder.jpg', 
+			image_url: 'https://axa-website-ink.s3.amazonaws.com/BrianZheng.jpg', 
 			name: 'Brian Zheng', 
 			position: "Vice President"
 		}, 
@@ -62,7 +62,7 @@
 		}, 
 		{
 			image_url: 'https://axa-website-ink.s3.amazonaws.com/Placeholder.jpg', 
-			name: 'N/A', 
+			name: 'Jon Pazen/Jeff Liu/et al.', 
 			position: "DEI Chair"
 		}, 
 		{
@@ -137,6 +137,20 @@
 			major: 'Economics & Environmental Studies', 
 			bio: 'I am involved with the Dickey Center, the Ledyard Canoe Club, the Dartmouth Cords, and have worked with the Dartmouth Center for Social Impact as well as done research for the Environmental Studies Department and Energy Justice Clinic. Looking to work in climate finance, environmental economics and policy post-grad. I also enjoy lounging.'
 		}, 
+		{
+			image_url: 'https://axa-website-ink.s3.amazonaws.com/BrianZheng.jpg', 
+			name: 'Brian Zheng', 
+			hometown: 'Naperville, IL', 
+			major: 'Government modified (Politics, Philosophy, & Economics); ENVS + Spanish minors', 
+			bio: 'On campus, I am an Army ROTC cadet, the president of the Dartmouth Cords a cappella group, and co-president of the Sexual Assault Peer Alliance.'
+		}, 
+		{
+			image_url: 'https://axa-website-ink.s3.amazonaws.com/DeclanOScannlain.jpg', 
+			name: "Declan O’Scannlain", 
+			hometown: 'Portland, OR', 
+			major: 'Physics & Chemistry', 
+			bio: 'At Dartmouth, I am on the cross country and track and field teams. I also volunteer at the Upper Valley Haven. I am interested in pursuing medicine.'
+		}, 
 	];
 
 	const twentyfive_array = [
@@ -153,6 +167,20 @@
 			hometown: 'Newton, MA', 
 			major: 'Engineering Sciences & Economics', 
 			bio: 'I enjoy spending time outdoors (climb, ski, bike, paddle, and combinations of these activities), building things, tickling the ivories, yeeefing while cooking, eating after yeeefing, and hope to have a positive impact on the environment through a career in business or engineering management.'
+		}, 
+		{
+			image_url: 'https://axa-website-ink.s3.amazonaws.com/ConnorAllen.jpg', 
+			name: 'Connor Allen', 
+			hometown: 'Wilton, CT', 
+			major: 'Economics, minor in Mathematical Finance & French', 
+			bio: 'I love skiing, hiking, falling into Wikipedia rabbit holes, playing piano, binging French TV shows, and writing for The Dartmouth. Big fan of dad music, strategy games, shamelessly plot-twist-reliant movies, and friendship, among other fun things. I have been described as a "snob" and a "Francophile" (by myself).'
+		}, 
+		{
+			image_url: 'https://axa-website-ink.s3.amazonaws.com/JeremyGart.jpg', 
+			name: 'Jeremy Gart', 
+			hometown: 'Denver, CO', 
+			major: 'Cognitive Science, minoring in Human-Centered Design & Spanish', 
+			bio: "I'm an active member of Dartmouth Ski Patrol, The D, and Alpha Chi Alpha. I enjoy slow walks, good food, and 2x MVP, 1x FMVP and NBA Champion Nikola Jokic."
 		}, 
 	];
 
