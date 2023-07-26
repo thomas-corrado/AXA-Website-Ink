@@ -11,7 +11,7 @@
 
 	const officer_array = [
 		{
-			image_url: 'https://axa-website-ink.s3.amazonaws.com/Placeholder.jpg', 
+			image_url: 'https://axa-website-ink.s3.amazonaws.com/EvanPhillips.jpg', 
 			name: 'Evan Philips', 
 			position: "President"
 		}, 
@@ -151,6 +151,13 @@
 			major: 'Physics & Chemistry', 
 			bio: 'At Dartmouth, I am on the cross country and track and field teams. I also volunteer at the Upper Valley Haven. I am interested in pursuing medicine.'
 		}, 
+		{
+			image_url: 'https://axa-website-ink.s3.amazonaws.com/EvanPhillips.jpg', 
+			name: "Evan Phillips", 
+			hometown: 'Chapel Hill, NC', 
+			major: 'Computer Science modified with Economics', 
+			bio: 'Two truths and one lie about me: I was a recent First Team All-Lank 2023 selection, I dabble in ultimate frisbee and CS TAing, and I am Grammy award winning artist Macklemore.'
+		}, 
 	];
 
 	const twentyfive_array = [
@@ -181,6 +188,34 @@
 			hometown: 'Denver, CO', 
 			major: 'Cognitive Science, minoring in Human-Centered Design & Spanish', 
 			bio: "I'm an active member of Dartmouth Ski Patrol, The D, and Alpha Chi Alpha. I enjoy slow walks, good food, and 2x MVP, 1x FMVP and NBA Champion Nikola Jokic."
+		}, 
+		{
+			image_url: 'https://axa-website-ink.s3.amazonaws.com/TommyCorrado.jpg', 
+			name: 'Tommy Corrado', 
+			hometown: 'Lancaster, PA', 
+			major: 'Computer Science & History', 
+			bio: "Here at Dartmouth, I am involved with The Dartmouth, the Dartmouth Admissions Office, and occasionally, the Book Arts Workshop. Outside of Dartmouth, I enjoy running outside, eating Go Go Squeezes, hammocking, reading, and live music, moviegoing, and exploring museums. I also engage in independent web development."
+		}, 
+		{
+			image_url: 'https://axa-website-ink.s3.amazonaws.com/MattKoff.jpg', 
+			name: 'Matt Koff', 
+			hometown: 'Kensington, MD', 
+			major: 'History', 
+			bio: "On campus, I am involved with Ujima Dance Troupe, I am the Co-Chair of Outreach for SAPA, a member of Hanover Community Kitchen, a Tour Guide, and a member of Ledyard Canoe Club. I hope to pursue a career in law and Civil Rights advocacy. I love how I look and who I am on most if not all days. Other than that, I'm not quite sure who I am or what I'm doing here."
+		}, 
+		{
+			image_url: 'https://axa-website-ink.s3.amazonaws.com/PabloPinedaPerez.jpg', 
+			name: 'Pablo Pineda Perez', 
+			hometown: 'Oberlin, OH', 
+			major: 'Anthropology & Chemistry', 
+			bio: "I am an Anthropology major and Chemistry minor. On campus I am involved in the Ledyard Canoe Club."
+		}, 
+		{
+			image_url: 'https://axa-website-ink.s3.amazonaws.com/GeorgeRichards.jpg', 
+			name: 'George Richards', 
+			hometown: 'Minneapolis, MN', 
+			major: 'Engineering Sciences & Economics', 
+			bio: "I enjoy being outside, spending time with friends, listening to music, and building things. Outside of AXA, I'm involved in the Sports Analytics club, and I find myself being constantly disappointed by all Minnesota sports teams."
 		}, 
 	];
 
