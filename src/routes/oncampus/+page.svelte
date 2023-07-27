@@ -41,7 +41,7 @@
 			position: "Social Chair"
 		}, 
 		{
-			image_url: 'https://axa-website-ink.s3.amazonaws.com/Placeholder.jpg', 
+			image_url: 'https://axa-website-ink.s3.amazonaws.com/BenFagell.jpg', 
 			name: 'Ben Fagell', 
 			position: "Social Chair"
 		}, 
@@ -76,7 +76,7 @@
 			position: "Secretary"
 		}, 
 		{
-			image_url: 'https://axa-website-ink.s3.amazonaws.com/Placeholder.jpg', 
+			image_url: 'https://axa-website-ink.s3.amazonaws.com/GeorgeRichards.jpg', 
 			name: 'George Richards', 
 			position: "Rush Chair"
 		}, 
@@ -158,6 +158,13 @@
 			major: 'Computer Science modified with Economics', 
 			bio: 'Two truths and one lie about me: I was a recent First Team All-Lank 2023 selection, I dabble in ultimate frisbee and CS TAing, and I am Grammy award winning artist Macklemore.'
 		}, 
+		{
+			image_url: 'https://axa-website-ink.s3.amazonaws.com/BenFagell.jpg', 
+			name: "Ben Fagell", 
+			hometown: 'Bethesda, MD', 
+			major: 'Government Major, Middle Eastern Studies Minor', 
+			bio: 'On campus, I am Managing Editor for the D, work with Dartmouth Consulting Group, and serve as social chair for AXA. I also performed research on immigration trends in the Gov department and travelled to London for the FSP at LSE. Oh, and I love poker.'
+		},
 	];
 
 	const twentyfive_array = [
