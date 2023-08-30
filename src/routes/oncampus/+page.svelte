@@ -91,7 +91,7 @@
 			position: "Rush Chair"
 		}, 
 		{
-			image_url: 'https://axa-website-ink.s3.amazonaws.com/Placeholder.jpg', 
+			image_url: 'https://axa-website-ink.s3.amazonaws.com/AndrewXu.jpg', 
 			name: 'Andrew Xu', 
 			position: "Rush Chair"
 		}, 
@@ -111,14 +111,14 @@
 			name: 'Lucas Boebel', 
 			hometown: 'Onalaska, WI', 
 			major: 'Computer Science', 
-			bio: 'Big yoinker who enjoys splerging and yeefing on occasion. Houseman for a year. Best Bustache 2022 second runner up. Now doing software engineering.'
+			bio: 'AXA Houseman for a year. Best Bustache 2022 second runner up. Now doing software engineering.'
 		}, 
 		{
 			image_url: 'https://axa-website-ink.s3.amazonaws.com/GriffinKozlow.jpg',
 			name: 'Griffin Kozlow', 
 			hometown: 'Detroit, MI', 
 			major: 'QSS & Music', 
-			bio: 'I graduated already and thus I’m not writing a bio. Chafe chafe chafe chafe chafe chafe chafe chafe chafe chafe chafe chafe chafe chafe chafe chafe chafe chafe chafe. So stupid so stupid Thomas crayondo you are sooooo stinky -10000'
+			bio: 'I am involved in First-year trips, the Dartmouth music production community, and served as a social chair for Alpha Chi. I am now doing product and corporate strategy in LA.'
 		}, 
 		{
 			image_url: 'https://axa-website-ink.s3.amazonaws.com/JackPoss.jpg',
@@ -180,7 +180,7 @@
 			name: 'Elliot Alberts', 
 			hometown: 'Newton, MA', 
 			major: 'Engineering Sciences & Economics', 
-			bio: 'I enjoy spending time outdoors (climb, ski, bike, paddle, and combinations of these activities), building things, tickling the ivories, yeeefing while cooking, eating after yeeefing, and hope to have a positive impact on the environment through a career in business or engineering management.'
+			bio: 'I enjoy spending time outdoors (climb, ski, bike, paddle, and combinations of these activities), building things, cooking, eating, and hope to have a positive impact on the environment through a career in business or engineering management.'
 		}, 
 		{
 			image_url: 'https://axa-website-ink.s3.amazonaws.com/ConnorAllen.jpg', 
@@ -223,6 +223,20 @@
 			hometown: 'Minneapolis, MN', 
 			major: 'Engineering Sciences & Economics', 
 			bio: "I enjoy being outside, spending time with friends, listening to music, and building things. Outside of AXA, I'm involved in the Sports Analytics club, and I find myself being constantly disappointed by all Minnesota sports teams."
+		}, 
+		{
+			image_url: 'https://axa-website-ink.s3.amazonaws.com/RyanTripp.jpg', 
+			name: 'Ryan Tripp', 
+			hometown: 'Piedmont, CA', 
+			major: 'Environmental Engineering', 
+			bio: "I'm on the lightweight rowing team and enjoy exploring nature in the upper valley and reading."
+		}, 
+		{
+			image_url: 'https://axa-website-ink.s3.amazonaws.com/AndrewXu.jpg', 
+			name: 'Andrew Xu', 
+			hometown: 'Montville, NJ', 
+			major: 'Quantitative Social Science', 
+			bio: "I am currently majoring in Quantitative Social Science, and I am interested in pursuing consulting or finance. Outside of the classroom, I am enjoy skiing during the winters, and golfing every time else. I am also captain of the club tennis team. In terms of on-campus clubs I have been apart of, I am a member of DIPP and formerly on The Dartmouth Sales and Finance Team."
 		}, 
 	];
 
